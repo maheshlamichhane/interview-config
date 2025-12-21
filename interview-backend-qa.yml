@@ -1,2 +1,7 @@
 build:
   version: "2.0"
+spring:
+  datasource:
+    url:  postgresql-interview.qa.svc.cluster.local
+    username: qauser
+    password: password
