@@ -1,2 +1,7 @@
 notification:
   email: maheshlamichhane048@gmail.com
+spring:
+  datasource:
+    url:  postgresql-interview.dev.svc.cluster.local
+    username: devuser
+    password: password
