@@ -2,6 +2,6 @@ notification:
   email: maheshlamichhaneprod048@gmail.com
 spring:
   datasource:
-    url:  postgresql-interview.prod.svc.cluster.local
+    url:  jdbc:postgresql://postgresql-interview.prod.svc.cluster.local:5442/interviewdb
     username: produser
-    password: password
+    password: prodpassword
