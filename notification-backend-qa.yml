@@ -2,6 +2,6 @@ notification:
   email: maheshlamichhaneqa048@gmail.com
 spring:
   datasource:
-    url:  jdbc:postgresql://dev-env-postgresql-interview.dev.svc.cluster.local:5442/interviewdb
-    username: devuser
-    password: devpassword
+    url:  jdbc:postgresql://qa-env-postgresql-interview.qa.svc.cluster.local:5442/interviewdb
+    username: qauser
+    password: qapassword
