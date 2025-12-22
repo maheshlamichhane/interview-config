@@ -4,4 +4,4 @@ spring:
   datasource:
     url:  jdbc:postgresql://postgresql-interview.qa.svc.cluster.local:5442/interviewdb
     username: qauser
-    password: password
+    password: qapassword
