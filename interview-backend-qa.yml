@@ -2,6 +2,6 @@ build:
   version: "2.0"
 spring:
   datasource:
-    url:  jdbc:postgresql://dev-env-postgresql-interview.qa.svc.cluster.local:5442/interviewdb
+    url:  jdbc:postgresql://qa-env-postgresql-interview.qa.svc.cluster.local:5442/interviewdb
     username: qauser
     password: qapassword
