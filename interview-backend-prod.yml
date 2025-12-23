@@ -4,4 +4,4 @@ spring:
   datasource:
     url:  jdbc:postgresql://prod-env-postgresql-interview.prod.svc.cluster.local:5442/interviewdb
     username: produser
-    password: prodpassword
+    password: "{cipher}U2FsdGVkX18Hs13CBTTo3azh6OAs1Xlv4wJvEnSXcZQ="
