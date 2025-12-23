@@ -5,3 +5,11 @@ spring:
     url:  jdbc:postgresql://prod-env-postgresql-interview.prod.svc.cluster.local:5442/interviewdb
     username: produser
     password: "{cipher}fef1ee8b7d95ea726e9a7e9e6db890b6014660c611c49b01cc69a8192242c0d9"
+interview-ai-backend:
+  message: "Hey, welcome to the interview prod API."
+  contactDetails:
+    name: "Mahesh Lamichhane - Product Owner."
+    email: "maheshlc@gmail.com"
+  onCallSupport:
+    - (453) 392-4829
+    - (236) 203-0384
