@@ -5,3 +5,11 @@ spring:
     url:  jdbc:postgresql://qa-env-postgresql-interview.qa.svc.cluster.local:5442/interviewdb
     username: qauser
     password: "{cipher}55c9abd1f767734daaa24714c27940f0f13e06b39982581a139a443aa5d2f54f"
+interview-backend:
+  message: "Hey, welcome to the interview qa API."
+  contactDetails:
+    name: "Akash Lamichhane - QA Lead."
+    email: "akashlc@gmail.com"
+  onCallSupport:
+    - (453) 392-4829
+    - (236) 203-0384
