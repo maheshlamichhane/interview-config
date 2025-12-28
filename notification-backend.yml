@@ -4,7 +4,7 @@ spring:
   datasource:
     url:  jdbc:postgresql://dev-env-postgresql-interview.dev.svc.cluster.local:5442/interviewdb
     username: devuser
-    password: "{cipher}d56ee6ec392174c677c982cc7b6d7c8bc9d47d11517256a3bf7fe47d6ecee842"
+    password: "{cipher}60fdcada72c6fc92d71667bb1f2db7275f21440a865c5032e135207f121a5e85"
 notification-backend:
   message: "Hey, welcome to the interview dev API."
   contactDetails:
